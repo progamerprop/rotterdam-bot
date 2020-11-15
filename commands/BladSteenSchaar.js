@@ -60,19 +60,8 @@ module.exports.run = async (client, message, args) => {
         } 
         
 
-    } else if (args[0].toUpperCase() == "ARON") {
-        console.log('Aron Is ingezet')
-        if (result == "steen") {
-
-            return message.channel.send(`Ik heb ${result} :moyai:, Maar aron is de beste dus ik kan nooit van hem winnen xD`);
-        } else if (result == "papier") {
-
-            return message.channel.send(`Ik heb ${result} :notepad_spiral:, Maar aron is de beste dus ik kan nooit van hem winnen xD`);
-        } else if (result == "schaar") {
-
-            return message.channel.send(`Ik heb ${result} :moyai:, Maar aron is de beste dus ik kan nooit van hem winnen xD`);
-        }
-    }
+    } 
+    
 
 }
 

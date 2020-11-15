@@ -42,7 +42,7 @@ module.exports.run = async (client, message, args) => {
         **Redenen: ** ${reason}`)
         .addField("Aantal warns", warns[warnUser.id].warns);
 
-    var channel = message.member.guild.channels.cache.get("760924860666609734");
+    var channel = message.member.guild.channels.cache.get("745324773076238486");
 
     if (!channel) return;
 
