@@ -109,7 +109,7 @@ client.on("ready", async () => {
 
     console.log(`${client.user.username} is online.`);
 
-    client.user.setActivity("Is sollicitaties aan het nakijken", { type: "WATCHING" });
+    client.user.setActivity("Kijk Naar mensen die command uit voeren", { type: "WATCHING" });
 
 });
 
